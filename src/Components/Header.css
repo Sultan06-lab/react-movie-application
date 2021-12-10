@@ -1,0 +1,44 @@
+.Header {
+    background-color:#424242;
+    padding: 15px;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.Header__list {
+    display: flex;   
+    justify-content: space-between;
+}
+
+.Header_list-items
+{
+    display: flex;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+
+
+.Header__list li {
+    list-style-type: none;
+    padding-right: 20px;
+    
+}
+
+.Header__list a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.Header__list a:hover {
+    text-decoration: none;
+    color: #ffd770;
+}
+
+.Header__list .active {
+    color: #ffd770;
+}
+

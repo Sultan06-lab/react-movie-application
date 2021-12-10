@@ -1,0 +1,53 @@
+.movie{
+    color: #000;
+}
+
+/* .movie img{
+    width: 30px;
+    height: 30px;
+} */
+
+/* .content{
+    position: relative;
+} */
+
+.film{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.card-film{
+    max-width: 300px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.card-film img{
+    height: 450px;
+    width: 300px;
+}
+
+.card-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-description{
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    right: 0;
+    max-width: 300px;
+    background-color: #fff;
+    transform: translateY(100%);
+    transition: all 0.8s ease 0s;
+    overflow: auto;
+}
+
+.card-film:hover .card-description{
+    transform: translateY(0);
+}
